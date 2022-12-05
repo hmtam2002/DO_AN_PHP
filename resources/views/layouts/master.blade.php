@@ -41,6 +41,11 @@
     @include("layouts/elements/header")
     <!-- slider -->
     @include("layouts/elements/slider")
+    <div class="container h-100"></div>
+    <!-- footer -->
+    @include("layouts/elements/footer")
+
+
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
