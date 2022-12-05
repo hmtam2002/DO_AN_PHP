@@ -17,5 +17,5 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', function () {
-    return view('trangchu');
+    return view('index');
 });
