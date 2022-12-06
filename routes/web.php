@@ -31,3 +31,18 @@ Route::get('/cart', function () {
 Route::get('/shop', function () {
     return view('shop');
 });
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/my-account', function () {
+    return view('my-account');
+});
+Route::get('/service', function () {
+    return view('service');
+});
+Route::get('/shop-detail', function () {
+    return view('shop-detail');
+});
+Route::get('/wishlist', function () {
+    return view('wishlist');    
+});

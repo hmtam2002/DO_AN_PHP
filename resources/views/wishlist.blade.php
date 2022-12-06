@@ -1,4 +1,4 @@
 @extends('layouts.master')
 @section('content')
-    @include('noidungtinh.my-account')
+    @include('noidungtinh.wishlist')
 @endsection
