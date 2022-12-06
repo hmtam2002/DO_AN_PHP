@@ -19,3 +19,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/checkout', function () {
+    return view('checkout');
+});
+Route::get('/cart', function () {
+    return view('cart');
+});
+Route::get('/shop', function () {
+    return view('shop');
+});

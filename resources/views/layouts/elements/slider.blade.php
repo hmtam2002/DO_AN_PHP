@@ -1,3 +1,4 @@
+{{-- slier --}}
 <div id="slides-shop" class="cover-slides">
     <ul class="slides-container">
         <li class="text-left">

@@ -38,12 +38,15 @@
 
 <body>
     <!-- header -->
-    @include("layouts/elements/header")
+    @include("layouts.elements.header")
     <!-- slider -->
-    @include("layouts/elements/slider")
-    <div class="container h-100"></div>
+    {{-- @include("layouts.elements.slider") --}}
+
+    <!-- nội dung -->
+    @yield('content')
+
     <!-- footer -->
-    @include("layouts/elements/footer")
+    @include("layouts.elements.footer")
 
 
     <script src="js/jquery-3.2.1.min.js"></script>
