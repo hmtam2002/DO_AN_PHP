@@ -47,6 +47,7 @@
 
     <!-- footer -->
     @include("layouts.elements.footer")
+    @include("layouts.elements.instagram")
 
 
     <script src="js/jquery-3.2.1.min.js"></script>
