@@ -1,5 +1,5 @@
 @extends("layouts.master")
-@include('layouts.elements.slider')
 @section('content')
+@include('layouts.elements.slider')
 @include('noidungtinh.index')
 @endsection
