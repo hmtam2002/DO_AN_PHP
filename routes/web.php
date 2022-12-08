@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/welcome', function () {
+    return view('welcome');
+});
 Route::get('/', function () {
     return view('index');
 });
@@ -45,4 +45,7 @@ Route::get('/shop-detail', function () {
 });
 Route::get('/wishlist', function () {
     return view('wishlist');    
+});
+Route::get('/location', function () {
+    return view('location');    
 });

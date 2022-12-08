@@ -16,6 +16,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -46,8 +50,8 @@
     @yield('content')
 
     <!-- footer -->
-    @include("layouts.elements.footer")
     @include("layouts.elements.instagram")
+    @include("layouts.elements.footer")
 
 
     <a href="#" id="back-to-top" title="Back to top" style="display: none"
@@ -71,3 +75,4 @@
     <script src="js/contact-form-script.js"></script>
     <script src="js/custom.js"></script>
 </body>
+
