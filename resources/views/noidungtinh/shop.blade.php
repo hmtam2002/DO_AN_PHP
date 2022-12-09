@@ -1,3 +1,20 @@
+    <!-- Start All Title Box -->
+    <div class="all-title-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Sản phẩm</h2>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{{ url('/') }}">Trang chủ</a></li>
+                        <li class="breadcrumb-item active">Sản phẩm</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End All Title Box -->    
+    
+    
     <!-- Start Shop Page  -->
     <div class="shop-box-inner">
         <div class="container">

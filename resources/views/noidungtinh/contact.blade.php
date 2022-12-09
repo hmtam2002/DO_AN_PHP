@@ -3,10 +3,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2>Contact Us</h2>
+                <h2>Liên hệ chúng tôi</h2>
                 <ul class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active"> Contact Us </li>
+                    <li class="breadcrumb-item"><a href="{{ url('/') }}">Trang chủ</a></li>
+                    <li class="breadcrumb-item active"> Liên hệ chúng tôi </li>
                 </ul>
             </div>
         </div>

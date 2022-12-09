@@ -3,10 +3,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>ABOUT US</h2>
+                    <h2>VỀ CHÚNG TÔI</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">ABOUT US</li>
+                        <li class="breadcrumb-item"><a href="{{ url('/') }}">Trang chủ</a></li>
+                        <li class="breadcrumb-item active">VỀ CHÚNG TÔI</li>
                     </ul>
                 </div>
             </div>

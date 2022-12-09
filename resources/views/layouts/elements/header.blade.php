@@ -76,7 +76,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                    <li class="nav-item active"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="{{ url('/') }}">Trang chủ</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">Về chúng tôi</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('/shop') }}">Sản phẩm</a></li>
                     {{-- <li class="dropdown megamenu-fw">
@@ -156,7 +156,7 @@
             <div class="attr-nav">
                 <ul>
                     <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                    <li class="side-menu"><a href="#">
+                    <li class="side-menu"><a href="{{ url('/cart') }}">
                             <i class="fa fa-shopping-bag"></i>
                             <span class="badge">3</span>
                         </a></li>

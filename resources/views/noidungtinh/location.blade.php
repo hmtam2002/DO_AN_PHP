@@ -4,10 +4,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2>Location</h2>
+                <h2>Vị trí cửa hàng</h2>
                 <ul class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active"> Location </li>
+                    <li class="breadcrumb-item"><a href="{{ url('/') }}">Trang chủ</a></li>
+                    <li class="breadcrumb-item active"> Vị trí cửa hàng </li>
                 </ul>
             </div>
         </div>

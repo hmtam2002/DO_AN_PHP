@@ -3,10 +3,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Shop Detail</h2>
+                    <h2>Chi tiết sản phẩm</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
-                        <li class="breadcrumb-item active">Shop Detail </li>
+                        <li class="breadcrumb-item"><a href="{{ url('/shop') }}">Sản phẩm</a></li>
+                        <li class="breadcrumb-item active">Chi tiết sản phẩm </li>
                     </ul>
                 </div>
             </div>

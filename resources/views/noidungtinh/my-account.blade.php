@@ -3,10 +3,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2>My Account</h2>
+                <h2>Tài khoản của tôi</h2>
                 <ul class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Shop</a></li>
-                    <li class="breadcrumb-item active">My Account</li>
+                    <li class="breadcrumb-item"><a href="{{ url('/shop') }}">Sản phẩm</a></li>
+                    <li class="breadcrumb-item active">Tài khoản của tôi</li>
                 </ul>
             </div>
         </div>
